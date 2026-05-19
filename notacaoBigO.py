@@ -1,29 +1,29 @@
 # O(1) 
 # tempo sempre CONSTANTE, independente do tamanho do input.
 
-# exemplo1
+# exemplo01
 def primeiroElemento(array):
     return array[0]
 
-# exemplo2
+# exemplo02
 def ultimoElemento(array):
     return array[-1]
 
-# exemplo3
+# exemplo03
 def par(n):
     return n % 2 == 0
 
 # O(n)
 # Percorre cada item do input, TEMPO cresce LINEARMENTE com o tamanho do input.
 
-# exemplo4
+# exemplo04
 def buscaLinear(array, item):
     for i, item in enumerate(array):
         if item == item:
             return i
     return -1
 
-# exemplo5
+# exemplo05
 def soma(array):
     total = 0
     for num in array:
@@ -33,7 +33,7 @@ def soma(array):
 # O(log n)
 # Busca binária é um exemplo clássico de algoritmo O(log n), onde o tempo de execução cresce LOGARITMICAMENTE com o tamanho do input.
 
-# exemplo6
+# exemplo06
 def pesquisaBinaria(lista, item):
     baixo = 0 #baixo e alto são os índices que delimitam a parte da lista onde o item pode estar
     alto = len(lista) - 1
@@ -58,7 +58,7 @@ print(pesquisaBinaria(minhaLista, -1)) # Saída: None
 # O(n log n)
 # dividir o problema em subproblemas menores, resolver cada um e depois combinar as soluções. Exemplos: Merge Sort, Quick Sort.
 
-# exemplo7
+# exemplo07
 def merge_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -82,7 +82,7 @@ def merge(esq, dir):
 # O(n^2)
 # Para cada item do input, o algoritmo percorre todo o input novamente. Exemplos: Bubble Sort, Selection Sort.
 
-#exemplo8
+#exemplo08
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):           # loop externo: n vezes
@@ -102,7 +102,7 @@ def pares_duplicados(arr):
 # O(2^n)
 # O algoritmo gera todas as combinações possíveis de um conjunto de itens. Exemplos: Fibonacci recursivo, Subconjuntos.
 
-#exemplo9
+#exemplo09
 def fibonacci(n):
     if n <= 1:
         return n
@@ -121,6 +121,7 @@ def todos_subconjuntos(arr):
 # O(n!)
 # O algoritmo gera todas as permutações possíveis de um conjunto de itens. Exemplos: Permutações, Problema do Caixeiro Viajante.
 
+# exemplo10
 def permutacoes(arr):
     if len(arr) <= 1:
         return [arr]
