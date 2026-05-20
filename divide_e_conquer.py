@@ -26,7 +26,7 @@ def conta_itens(lista):
         return 1 + conta_itens(lista[1:]) # caso recursivo: conta o primeiro elemento e soma com a contagem do restante da lista
 print(conta_itens([1, 2, 3, 4])) # Saída: 4
     
-# valor mais alto em uma lista]
+# valor mais alto em uma lista
 
 def valor_mais_alto(lista):
     if len(lista) == 1:
