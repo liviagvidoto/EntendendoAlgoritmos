@@ -26,7 +26,7 @@ O livro cobre desde conceitos fundamentais como busca binária até tópicos ava
 | 08 | Algoritmos Gulosos | Problema do conjunto de cobertura, NP-completo |
 | 09 | Programação Dinâmica | Problema da mochila, Subsequência comum |
 | 10 | K-Vizinhos mais Próximos | KNN, Classificação, Regressão |
-
+| 11 | Próximos Passos | Outros Algoritmos, Indicações de leituras|
 
 ### Pré-requisitos
 
