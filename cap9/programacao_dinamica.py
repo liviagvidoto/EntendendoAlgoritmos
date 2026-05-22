@@ -1,2 +1,3 @@
 # Programação Dinâmica
 # O nome "programação dinâmica" foi cunhado por Richard Bellman na década de 1950. Ele escolheu o termo "dinâmica" para transmitir a ideia de que o processo de resolução de problemas é fluida e adaptativa, e "programação" para se referir à formulação matemática dos problemas. A programação dinâmica é uma técnica poderosa para resolver problemas de otimização e contagem, onde a solução pode ser construída a partir de soluções menores.
+ 
