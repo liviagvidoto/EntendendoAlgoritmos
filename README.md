@@ -30,7 +30,7 @@ O livro cobre desde conceitos fundamentais como busca binária até tópicos ava
 
 ### Pré-requisitos
 
-- Python 3.8 ou superior
+- Python 3.1 ou superior
 
 
 
