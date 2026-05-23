@@ -31,6 +31,7 @@ O livro cobre desde conceitos fundamentais como busca binária até tópicos ava
 ### Pré-requisitos
 
 - Python 3.1 ou superior
+- Instalação de IDE Visual Studio Code, PyCharm, Jupyter Notebook, Spyder (qualquer um de sua preferência)
 
 
 
