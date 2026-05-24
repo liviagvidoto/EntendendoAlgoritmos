@@ -18,12 +18,13 @@ def par(n):
 
 # exemplo04
 def buscaLinear(array, item):
-    for i, item in enumerate(array):
-        if item == item:
+    for i, elemento in enumerate(array):
+        if elemento == item:
             return i
     return -1
 
 # exemplo05
+
 def soma(array):
     total = 0
     for num in array:
