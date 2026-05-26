@@ -12,7 +12,7 @@ def sauda2(nome):
    print(f"Como vai, {nome}?")
 
 def tchau():
-    #print("Tchau!")
+    print("Tchau!")
 
 # pilha de chamada com recursão
 
